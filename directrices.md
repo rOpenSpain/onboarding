@@ -48,7 +48,7 @@ El archivo `DESCRIPTION` de un paquete debe listar a sus autores y contribuyente
 
 ```
     person("María", "Pérez", role = "rev",
-    comment = "Mara revisó el paquete para rOpenSpain, ver <https://github.com/rOpenSpain/onboarding/issues/116>"),
+    comment = "María revisó el paquete para rOpenSpain, ver <https://github.com/rOpenSpain/onboarding/issues/116>"),
 ```
 
 Solamente debes incluir los revisores si previamente te han dado su consentimiento. Debes tener en cuenta que 'rev' lanzará una   CRAN NOTE a menos que el paquete se compile utilizando R v3.5 (r-devel desde 2017-09-21).
