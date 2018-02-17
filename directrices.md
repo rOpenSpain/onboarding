@@ -30,10 +30,10 @@ Recomendamos nombres cortos y descriptivos en minúsculas. Si tu paquete tiene v
 
 * El paquete debe de contener como mínimo una viñeta que provea una introducción a las funciones principales y casos de uso sencillos.
 
-* Igual que en el caso del archivo README, la documentación de nivel superior o las viñetas deben ser el principal punto de entrada para los usuarios. Si tu paquete conecta a una fuente de datos externa o a un servicio online, o si envuelve otro sdoftware externo, debe de proveer suficiente información al usuario para comprender la naturaleza de el dato, el servicio, el software utilizado, etcétera. Asímismo debe proveer de enlaces a cualquier información relevante.
+* Igual que en el caso del archivo README, la documentación de nivel superior o las viñetas deben ser el principal punto de entrada para los usuarios. Si tu paquete conecta a una fuente de datos externa o a un servicio online, o si envuelve otro software externo, debe de proveer suficiente información al usuario para comprender la naturaleza de el dato, el servicio, el software utilizado, etcétera. Asímismo debe proveer de enlaces a cualquier información relevante.
 Por ejemplo, una viñeta no debería solamente decir cosas como: "ofrece acceso al servicio web del ..." sino que también debe de incluir un repositorio de los diferentes servicios que el citado servicio online provee, información general sobre su funcionamiento, la documentación de la estructura de los datos accedidos y sus metadatos, todo ello accesible mediante enlaces visibles.                      
 
-* Recomendamos encarecidamente que todos los paquietes tengan como método de documentación fundamental `roxygen2`.  `roxygen2` es [un paquete R](http://cran.r-project.org/web/packages/roxygen2/index.html) cuya función principal es compilar  los ficheros `.Rd` en el directorio `man` del paquete, con sencillas etiquetas añadidas sobre cada función.
+* Recomendamos encarecidamente que todos los paquetes tengan `roxygen2` como método de documentación fundamental.  `roxygen2` es [un paquete R](http://cran.r-project.org/web/packages/roxygen2/index.html) cuya función principal es compilar  los ficheros `.Rd` en el directorio `man` del paquete, con sencillas etiquetas añadidas sobre cada función.
 
 * Puedes encontrar ms información sobre roxygen2 [aquí](http://r-pkgs.had.co.nz/man.html) en el mencionado libroi sobre paquetes R.
 
