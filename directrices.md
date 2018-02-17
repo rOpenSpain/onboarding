@@ -24,7 +24,7 @@ Recomendamos nombres cortos y descriptivos en minúsculas. Si tu paquete tiene v
 ## Documentación
 
 
-* Todas las funciones exportadas de un paquete deben sere extensamente documentadas incluyendo ejemplos claros.
+* Todas las funciones exportadas de un paquete deben ser extensamente documentadas incluyendo ejemplos claros.
 
 * El paquete debe de incluir documentación global que se pueda ver con la llamada a la función `?foobar`, (o `?foobar-paquete` si hay un caso de conflicto de nombres). Opcionalmente podras usar ambos comandos para el fichero del manual, utilizando `?foobar` y `?foobar-paquete` mediante etiquetas roxygen de tipo `@aliases`.
 
