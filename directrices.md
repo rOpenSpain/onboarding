@@ -77,7 +77,11 @@ Por favor no liste editores como contribuyentes. Tu participación y tu contribu
 
 ## Dependencias
 
-TBD
+
+* Usa `Imports` en lugar de `Depends` para paquetes que provean funciones de otros paquetes. Asegúrate de listar los paquetes utilizados en los tests (`testthat`), y la documentación (`knitr`, `roxygen2`)  en la sección `Suggests` de las dependencias. Si usas cualquier otro paquete en los ejemplos, asegúrate también de listarlos si no están mencionados en otro lugar, en la sección `Enhances`.
+
+* Para la mayora de los casos donde expones funciones de dependencias al usuario deberas importar y re-exportar las funciones concretas en lugar de simplemente mencionarlas en el campo `Depends`. Por ejemplo, si las funciones en tu paquete producen objetos de un tipo concreto que usas para hacer gráficos, deberas re-exportar solamente las dunciones que imprimen o dibujan los gráficos en lugar del paquete entero.
+
 
 ## Enlaces recomendados
 
