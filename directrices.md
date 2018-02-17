@@ -88,6 +88,6 @@ Por favor no liste editores como contribuyentes. Tu participación y tu contribu
 
 * Hadley Wickham's _R Packages_ es un buen libro sobre el desarrollo de paquetes y está disponible [de manera gratuita en la web](http://r-pkgs.had.co.nz/).
 
-* [Writing R Extensions](https://cran.r-project.org/doc/manuals/r-release/R-exts.html) es el libro canónico y ms actualizado sobre el proceso de creación de paquetes para R.
+* [Writing R Extensions](https://cran.r-project.org/doc/manuals/r-release/R-exts.html) es el libro canónico y más actualizado sobre el proceso de creación de paquetes para R.
 
 * Si estás añadiendo un paquete a rOpenSpain a través del [repositorio onboarding](https://github.com/rOpenSpain/onboarding), puedes enviar tus cuestiones al equipo rector de rOpenSpain en el issue tracker, o a través de nuestro formulario de contacto.
