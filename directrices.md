@@ -43,7 +43,17 @@ Por ejemplo, una viñeta no debería solamente decir cosas como: "ofrece acceso 
 
 ## Autoría
 
-TBD
+
+El archivo `DESCRIPTION` de un paquete debe listar a sus aturores y contribuyentes principales utilizando la sintaxis `Authors@R` para indicar sus roles (author/creator/contributor etc.) si ocurriese que hay mas de un autor. Puedes leer [esta sección del manual de R: "Writing R Extensions"](https://cran.rstudio.com/doc/manuals/r-release/R-exts.html#The-DESCRIPTION-file) para más detalles. Si crees que los revisores han hecho contribuciones sustanciales al desarrollo de tu paquete, puedes listarlos en el campo `Authors@R` asignándoles el tipo "revisor" (`"rev"`), por ejemplo así:
+
+```
+    person("María", "Pérez", role = "rev",
+    comment = "Mara revisó el paquete para rOpenSpain, ver <https://github.com/rOpenSpain/onboarding/issues/116>"),
+```
+
+Solamente debes incluir los revisores si previamente te han dado su consentimiento. Debes tener en cuenta que 'rev' lanzará una   CRAN NOTE a menos que el paquete se compile utilizando R v3.5 (r-devel desde 2017-09-21).
+
+Por favor no liste editores como contribuyentes. Tu participación y tu contribución a rOpenSpain nos parece un gran aporte que consideramos como un agradecimiento suficiente hacia este proyecto. 🙂
 
 ## _Testing_
 
