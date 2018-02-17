@@ -90,4 +90,5 @@ Por favor no liste editores como contribuyentes. Tu participación y tu contribu
 
 * [Writing R Extensions](https://cran.r-project.org/doc/manuals/r-release/R-exts.html) es el libro canónico y más actualizado sobre el proceso de creación de paquetes para R.
 
-* Si estás añadiendo un paquete a rOpenSpain a través del [repositorio onboarding](https://github.com/rOpenSpain/onboarding), puedes enviar tus cuestiones al equipo rector de rOpenSpain en el issue tracker, o a través de nuestro formulario de contacto.
+* Si añades un paquete a rOpenSpain a través del [repositorio onboarding](https://github.com/rOpenSpain/onboarding), puedes enviar tus cuestiones al equipo rector de rOpenSpain en el issue tracker, o a través de nuestro formulario de contacto.
+
