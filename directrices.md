@@ -35,7 +35,7 @@ Por ejemplo, una viñeta no debería solamente decir cosas como: "ofrece acceso 
 
 * Recomendamos encarecidamente que todos los paquetes tengan `roxygen2` como método de documentación fundamental.  `roxygen2` es [un paquete R](http://cran.r-project.org/web/packages/roxygen2/index.html) cuya función principal es compilar  los ficheros `.Rd` en el directorio `man` del paquete, con sencillas etiquetas añadidas sobre cada función.
 
-* Puedes encontrar ms información sobre roxygen2 [aquí](http://r-pkgs.had.co.nz/man.html) en el mencionado libroi sobre paquetes R.
+* Puedes encontrar ms información sobre roxygen2 [aquí](http://r-pkgs.had.co.nz/man.html) en el mencionado libro de Hadley Wickham sobre paquetes R.
 
 * Una de las principales ventajas del uso de `roxygen2`  es que el `NAMESPACE` siempre se genera automáticamente y está siempre actualizado.
 
