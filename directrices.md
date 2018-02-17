@@ -44,7 +44,7 @@ Por ejemplo, una viñeta no debería solamente decir cosas como: "ofrece acceso 
 ## Autoría
 
 
-El archivo `DESCRIPTION` de un paquete debe listar a sus aturores y contribuyentes principales utilizando la sintaxis `Authors@R` para indicar sus roles (author/creator/contributor etc.) si ocurriese que hay mas de un autor. Puedes leer [esta sección del manual de R: "Writing R Extensions"](https://cran.rstudio.com/doc/manuals/r-release/R-exts.html#The-DESCRIPTION-file) para más detalles. Si crees que los revisores han hecho contribuciones sustanciales al desarrollo de tu paquete, puedes listarlos en el campo `Authors@R` asignándoles el tipo "revisor" (`"rev"`), por ejemplo así:
+El archivo `DESCRIPTION` de un paquete debe listar a sus autores y contribuyentes principales utilizando la sintaxis `Authors@R` para indicar sus roles (author/creator/contributor etc.) si ocurriese que hay mas de un autor. Puedes leer [esta sección del manual de R: "Writing R Extensions"](https://cran.rstudio.com/doc/manuals/r-release/R-exts.html#The-DESCRIPTION-file) para más detalles. Si crees que los revisores han hecho contribuciones sustanciales al desarrollo de tu paquete, puedes listarlos en el campo `Authors@R` asignándoles el tipo "revisor" (`"rev"`), por ejemplo así:
 
 ```
     person("María", "Pérez", role = "rev",
