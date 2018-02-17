@@ -71,7 +71,7 @@ Por favor no liste editores como contribuyentes. Tu participación y tu contribu
 
 ## Versionado
 
- Recomandamos que tu paquete use versionado semántico. Una explicación detallada sobre el mismo está disponible en [este capítulo](http://r-pkgs.had.co.nz/description.html#version).
+ Recomendamos que tu paquete use versionado semántico. Una explicación detallada sobre el mismo está disponible en [este capítulo](http://r-pkgs.had.co.nz/description.html#version).
  
  * Etiqueta cada versión después de enviar a CRAN. [[más información](http://marker.to/ZYd3kZ)]
 
