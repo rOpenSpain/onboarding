@@ -57,7 +57,17 @@ Por favor no liste editores como contribuyentes. Tu participación y tu contribu
 
 ## _Testing_
 
-TBD
+* Todos los paquetes deben de pasar el test `R CMD check`/`devtools::check()` de todas las plataformas principales.
+
+* Todos los paquetes deben tener un conjunto de tests que cubra las funcionalidades principales del mismo.
+
+* Recomendamos parta este fin usar `testthat`. Persevera en escribir tests al mismo tiempo que escribes las funciones. Esto sirve en primer lugar para tener tests disponibles para las mismas, pero también te ayudará a pensar en todas las formas en que tu función puede fallar y programarás de forma más _defensiva_. [Más información](http://r-pkgs.had.co.nz/tests.html).
+
+* `testthat` tiene una función denominada `skip_on_cran()` que puedes utilizar para que no corran los tests en CRAN. Recomendamos usarlo en todas las  funciones que incluyen llamadas a APIs externas que tienen bastantes probabilidades de fallar en CRAN. Estos tests seguirán corriendo en Travis sin embargo.
+
+* Comprueba la extensión de la cobertura de tus tests con el paquete [**covr**](https://github.com/jimhester/covr). Incluyendo una insignia o distintivo (badge) con la cobertura de los tests en tu README haces más facil que los revisores vean en qué extensión están testeadas las funciones de tu paquete. No se requiere cobertura al 100%, pero los editores y los revisores utilizarán los informes de cobertura como punto de partida para evaluar si tus test cubren las funcionalidades principales.
+
+* Aún usando [integración continua](#ci), recomendamos que se corran los tests de manera local antes de enviarnos el paquete, ya que sabemos que muchos tests a veces son soslayados. (Podrías necesitar el ajuste de `Sys.setenv(NOT_CRAN="true")` para asegurarte de que se ejecuten todos.) Además recomendamos que antes de enviarnos tu paquete uses las buenas prácticas que propone [**Gabor Csardi**](https://github.com/MangoTheCat/goodpractice/) en su paquete y ejecutar `devtools::spell_check()` para encontrar errores de escritura en la documentación.
 
 ## Versionado
 
