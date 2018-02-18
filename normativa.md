@@ -20,9 +20,9 @@ title: Normativa de rOpenSpain
 
 ## Objetivos y alcance
 
-rOpenSpain tiene como objetivo apoyar el desarrollo de paquetes que fomentan la investigación reproducible y gestionan el ciclo de vida de los datos para las ciencias. Los paquetes remitidos a rOpenSpain deben entrar dentro de esta categoría, permitir el analisis reproducible, o fometnar el uso de los datos abiertos con especial incidencia en el mundo hispano. Si no estás seguro de si tu paquete encaja en nuestros criterios, por favor abre un issue con el asunto: `petición pre-envío`.
+rOpenSpain tiene como objetivo apoyar el desarrollo de paquetes que fomentan la investigación reproducible y cumplan unos requisitos de calidad ampliamente aceptados. Los paquetes remitidos a rOpenSpain deben entrar dentro de esta categoría, permitir el analisis reproducible, o fomentar el uso de los datos abiertos con especial incidencia en el mundo hispano. Si no estás seguro de si tu paquete encaja en nuestros criterios, por favor abre un issue con el asunto: `dudas envío`.
 
-Aunque intentamos mantener un criterio consistente y estable en el tiempo, este es un proyecto vivo, con muchos colaboradores, y por tanto sujeto a cambios. De manera que pueden existir paquetes aceptados en los inicios del proyecto que no cuimplirían la normativa actual. Por ello prometemos estudiar caso por caso y en algunas ocasiones se podrían hacer excepciones si el paquete resulta, a nuestro criterio, de especial interés.
+Aunque intentamos mantener un criterio consistente y estable en el tiempo, este es un proyecto vivo, con muchos colaboradores, y por tanto sujeto a cambios. De manera que pueden existir paquetes aceptados en los inicios del proyecto que no cumplirían la normativa actual. Por ello prometemos estudiar caso por caso y en algunas ocasiones se podrían hacer excepciones si el paquete resulta, a nuestro criterio, de especial interés.
 
 rOpenSpain se esfuerza en promover buenas prácticas de desarrollo, que de lugar a software de calidad. Para asegurarnos de que se cumplen nuestros criterios revisamos todas las peticiones en nuestro proceso de onboarding y aún existiendo aceptación, mantenemos la vigilancia para que las normas de calidad se cumplan, fomentando las mejoras y la correción de errores.
 
@@ -50,12 +50,13 @@ Deben así mismo responder en tiempo y forma a las peticiones de resolución de 
 Este periodo de tres meses es orientativo, dado que no siempre todos los colaboradores tienen el mismo número de compromisos o tiempo para dedicar al proyecto, y en cualquier caso se puede acortar o alargar en función de la gravedad del error. La definición del nivel de la gravedad del un error puede ser algo subjetivo, por lo que aportamos unos ejemplos:
 
 - Errores que deben corregirse de manera inmediata:
-    - El paquete es una dependencia de otros paquetes (1 o varios) en CRAN, de modo que el fallo está provocando errores en los paquetes que dependen de él.
+    - El paquete es una dependencia para otros paquetes (1 o varios) en CRAN, de modo que el fallo está provocando errores en los paquetes que dependen de él.
     - El paquete puede que no tenga otros dependientes de él en CRAN, pero es ampliamente usado, y por tanto es necesario que sea corregido con celeridad.
 
+
 - Casos en que podemos esperar un poco más:
-    - El paquiete no está en CRAN, o estando en CRAN no es dependencia para ningún otro.
-    - El paquete necesita algunas correcciones, el mantenedor ha respondido pero está muy atareado en un nuevo trabajo, o por otras reazones de índole personal, pero se ha comprometido a corregirlo pronto.
+    - El paquete no está en CRAN, o estando en CRAN no es dependencia para ningún otro.
+    - El paquete necesita algunas correcciones, el mantenedor ha respondido pero está muy atareado en un nuevo trabajo o por otras reazones de índole personal, pero se ha comprometido a corregirlo pronto.
 
 Requerimos a todos los mantenedores que se aseguren de recibir las notificaciones de GitHub así como comprobar que los mensajes de los miembros del equipo rector de rOpenSpain no están terminando en la carpeta de spam. Además, tenemos la opción del canal Slack de rOpenSpain para mantener el contacto entre los miembros de la comunidad.
 
@@ -63,7 +64,7 @@ En caso de que un autor abandone el mantenimiento de su paquete, nos reservamos 
 
 ## Código de Conducta
 
-* Estamos comprometidos con proveer de un ambiente amistoso, seguro y abierto para todos los desarrolladores sin importarnos su procedencioa, género, orientación sexual, ideología o cualquier otra característica personal. No son temas de nuestra incumbencia, pero no toleraremos que se usen como argumentos en contra de nadie.
+* Estamos comprometidos con proveer de un ambiente amistoso, seguro y abierto para todos los desarrolladores sin importarnos su procedencia, género, orientación sexual, ideología o cualquier otra característica personal. No son temas de nuestra incumbencia, pero no toleraremos que se usen como argumentos en contra de nadie.
 
 * Debe evitarse el uso de nombres o avatares con contenido sexual explícito, o que incumplan las normas de educación, el sentido común, o que vayan contra el mantenimiento de este ambiente amistoso y agradable que todos pretendemos.
 
